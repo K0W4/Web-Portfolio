@@ -4,6 +4,8 @@ import Loader from '../components/Loader'
 
 import Island from '../models/Island'
 import Sky from '../models/Sky'
+import Dragon from '../models/Dragon'
+import Ship from '../models/Ship'
 
 {/*<div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
         POPUP
@@ -40,12 +42,14 @@ const Home = () => {
           <ambientLight intensity={0.5}/>
           <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
 
+          <Dragon />
           <Sky />
           <Island
             position={islandPosition}
             scale={islandScale}
             rotation={islandRotation}
           />
+          <Ship />
         </Suspense>
       </Canvas>
     </section>
