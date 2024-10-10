@@ -9,4 +9,3 @@ const Ship = () => {
 }
 
 export default Ship
-fce
