@@ -1,9 +1,14 @@
 import React from 'react'
 
-const Ship = () => {
+import shipScene from '../assets/3d/ship.glb'
+import { useGLTF } from '@react-three/drei'
+
+const Ship = ({ isRotating, ...props }) => {
+    const { scene, animations } = useGLTF(shipScene);
+
   return (
-    <mesh>
-      
+    <mesh {...props}>
+      <primitive object={scene} />
     </mesh>
   )
 }
