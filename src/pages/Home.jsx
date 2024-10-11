@@ -4,7 +4,6 @@ import Loader from '../components/Loader'
 
 import Island from '../models/Island'
 import Sky from '../models/Sky'
-import Dragon from '../models/Dragon'
 import Ship from '../models/Ship'
 
 {/*<div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
@@ -12,7 +11,8 @@ import Ship from '../models/Ship'
       </div>*/}
 
 const Home = () => {
-  const [isRotating, setIsRotating] = useState(false)
+  const [isRotating, setIsRotating] = useState(false);
+  const [currentStage, setCurrentStage] = useState(1);
 
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
@@ -36,16 +36,16 @@ const Home = () => {
 
     if(window.innerWidth < 768)
     {
-      screenScale = [1.5, 1.5, 1.5];
-      screenPosition = [0, -1.5, 0];
+      screenScale = [0.005, 0.005, 0.005];
+      screenPosition = [1.5, -2, -1];
     }
     else
     {
-      screenScale = [3, 3, 3];
-      screenPosition = [0, -4, -4];
+      screenScale = [0.01, 0.01, 0.01];
+      screenPosition = [2, -5, -9];
     }
 
-    return [screenScale, screenPosition,]
+    return [screenScale, screenPosition];
   }
 
   const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize();
@@ -62,20 +62,20 @@ const Home = () => {
           <ambientLight intensity={0.5}/>
           <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
 
-          <Dragon />
-          <Sky />
+          <Sky isRotating={isRotating} />
           <Island
             position={islandPosition}
             scale={islandScale}
             rotation={islandRotation}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
+            setCurrentStage={setCurrentStage}
           />
           <Ship
             isRotating={isRotating}
             scale={shipScale}
             position={shipPosition}
-            rotation={[0, 5.2, 0]}
+            rotation={[0, 2, 0]}
           />
         </Suspense>
       </Canvas>
