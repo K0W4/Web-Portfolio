@@ -11,12 +11,12 @@ const Space = ({ isRotating } ) => {
   useFrame((_, delta) => {
     if (isRotating)
     {
-      spaceRef.current.rotation.y += 0.15 * delta
+      spaceRef.current.rotation.y += 0.95 * delta
     }
   })
 
   return (
-    <mesh ref={spaceRef}>
+    <mesh ref={spaceRef} scale={[2, 2, 2]} >
         <primitive object={space.scene} />
     </mesh>
   )
