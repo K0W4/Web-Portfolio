@@ -333,8 +333,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Sail_Front004" rotation={[-Math.PI, -1.571, 0]} scale={2.969}>
                           <mesh
                             name="Sail_Front004_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Front004_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -346,8 +346,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={2.969}>
                           <mesh
                             name="Sail_Rear004_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Rear004_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -355,8 +355,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Mast004" position={[0, 0, 3.637]} scale={[0.7, 0.7, 1]}>
                           <mesh
                             name="Mast004_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Mast004_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -364,8 +364,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Boat004" rotation={[-Math.PI / 2, 0, 0]}>
                           <mesh
                             name="Boat004_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Boat004_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -381,8 +381,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Boat003" rotation={[-Math.PI / 2, 0, 0]}>
                           <mesh
                             name="Boat003_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Boat003_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -390,8 +390,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Mast003" position={[0, 0, 3.637]} scale={[0.7, 0.7, 1]}>
                           <mesh
                             name="Mast003_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Mast003_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -403,8 +403,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={2.969}>
                           <mesh
                             name="Sail_Rear003_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Rear003_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -412,8 +412,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Sail_Front003" rotation={[-Math.PI, -1.571, 0]} scale={2.969}>
                           <mesh
                             name="Sail_Front003_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Front003_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -429,8 +429,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Sail_Front002" rotation={[-Math.PI, -1.571, 0]} scale={2.969}>
                           <mesh
                             name="Sail_Front002_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Front002_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -442,8 +442,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={2.969}>
                           <mesh
                             name="Sail_Rear002_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Rear002_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -451,8 +451,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Mast002" position={[0, 0, 3.637]} scale={[0.7, 0.7, 1]}>
                           <mesh
                             name="Mast002_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Mast002_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -460,8 +460,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Boat002" rotation={[-Math.PI / 2, 0, 0]}>
                           <mesh
                             name="Boat002_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Boat002_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -477,8 +477,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Boat001" rotation={[-Math.PI / 2, 0, 0]}>
                           <mesh
                             name="Boat001_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Boat001_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -486,8 +486,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Mast001" position={[0, 0, 3.637]} scale={[0.7, 0.7, 1]}>
                           <mesh
                             name="Mast001_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Mast001_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -499,8 +499,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={2.969}>
                           <mesh
                             name="Sail_Rear001_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Rear001_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -508,8 +508,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Sail_Front001" rotation={[-Math.PI, -1.571, 0]} scale={2.969}>
                           <mesh
                             name="Sail_Front001_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Front001_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -528,8 +528,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={2.969}>
                           <mesh
                             name="Sail_Front_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Front_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -541,8 +541,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={2.969}>
                           <mesh
                             name="Sail_Rear_Sail_Boat_Sail_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Sail_Rear_Sail_Boat_Sail_0.geometry}
                             material={materials.Sail_Boat_Sail}
                           />
@@ -550,8 +550,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Mast" position={[0, 0, 3.637]} scale={[0.7, 0.7, 1]}>
                           <mesh
                             name="Mast_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Mast_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -559,8 +559,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Boat" rotation={[-Math.PI / 2, 0, 0]}>
                           <mesh
                             name="Boat_Sail_Boat_Wood_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Boat_Sail_Boat_Wood_0.geometry}
                             material={materials.Sail_Boat_Wood}
                           />
@@ -582,15 +582,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[6.885, 6.885, 13.77]}>
                           <mesh
                             name="Snow_Chimney005_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney005_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Chimney005_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney005_Snow_0.geometry}
                             material={materials.Snow}
                           />
@@ -602,15 +602,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[22.714, 13.114, 22.95]}>
                           <mesh
                             name="Snow_Roof004_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof004_Snow_0.geometry}
                             material={materials.Snow}
                           />
                           <mesh
                             name="Snow_Roof004_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof004_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -622,22 +622,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[34.424, 27.539, 27.539]}>
                           <mesh
                             name="Snow_Base005_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base005_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Base005_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base005_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Snow_Base005_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base005_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -657,22 +657,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[34.424, 27.539, 27.539]}>
                           <mesh
                             name="Snow_Base004_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base004_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Base004_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base004_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Snow_Base004_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base004_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -684,15 +684,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[22.714, 13.114, 22.95]}>
                           <mesh
                             name="Snow_Roof003_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof003_Snow_0.geometry}
                             material={materials.Snow}
                           />
                           <mesh
                             name="Snow_Roof003_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof003_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -704,15 +704,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[6.885, 6.885, 13.77]}>
                           <mesh
                             name="Snow_Chimney004_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney004_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Chimney004_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney004_Snow_0.geometry}
                             material={materials.Snow}
                           />
@@ -732,15 +732,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[6.885, 6.885, 13.77]}>
                           <mesh
                             name="Snow_Chimney003_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney003_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Chimney003_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney003_Snow_0.geometry}
                             material={materials.Snow}
                           />
@@ -752,15 +752,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[22.714, 13.114, 22.95]}>
                           <mesh
                             name="Snow_Roof002_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof002_Snow_0.geometry}
                             material={materials.Snow}
                           />
                           <mesh
                             name="Snow_Roof002_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof002_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -772,22 +772,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[34.424, 27.539, 27.539]}>
                           <mesh
                             name="Snow_Base003_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base003_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Base003_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base003_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Snow_Base003_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base003_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -807,22 +807,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[34.424, 27.539, 27.539]}>
                           <mesh
                             name="Snow_Base002_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base002_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Base002_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base002_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Snow_Base002_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base002_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -834,15 +834,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[22.714, 13.114, 22.95]}>
                           <mesh
                             name="Snow_Roof001_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof001_Snow_0.geometry}
                             material={materials.Snow}
                           />
                           <mesh
                             name="Snow_Roof001_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof001_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -854,15 +854,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[6.885, 6.885, 13.77]}>
                           <mesh
                             name="Snow_Chimney002_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney002_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Chimney002_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney002_Snow_0.geometry}
                             material={materials.Snow}
                           />
@@ -878,22 +878,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[34.424, 27.539, 27.539]}>
                           <mesh
                             name="Snow_Base001_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base001_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Base001_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base001_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Snow_Base001_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base001_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -905,15 +905,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[22.714, 13.114, 22.95]}>
                           <mesh
                             name="Snow_Roof000_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof000_Snow_0.geometry}
                             material={materials.Snow}
                           />
                           <mesh
                             name="Snow_Roof000_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof000_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -925,15 +925,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[6.885, 6.885, 13.77]}>
                           <mesh
                             name="Snow_Chimney001_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney001_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Chimney001_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney001_Snow_0.geometry}
                             material={materials.Snow}
                           />
@@ -953,15 +953,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[6.885, 6.885, 13.77]}>
                           <mesh
                             name="Snow_Chimney000_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney000_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Chimney000_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Chimney000_Snow_0.geometry}
                             material={materials.Snow}
                           />
@@ -973,15 +973,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[22.714, 13.114, 22.95]}>
                           <mesh
                             name="Snow_Roof008_Snow_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof008_Snow_0.geometry}
                             material={materials.Snow}
                           />
                           <mesh
                             name="Snow_Roof008_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Roof008_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -993,22 +993,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[34.424, 27.539, 27.539]}>
                           <mesh
                             name="Snow_Base000_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base000_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
                           <mesh
                             name="Snow_Base000_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base000_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Snow_Base000_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Snow_Base000_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -1025,22 +1025,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine024_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine024_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine024_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine024_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine024_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine024_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1054,22 +1054,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine023_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine023_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine023_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine023_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine023_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine023_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1083,22 +1083,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine022_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine022_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine022_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine022_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine022_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine022_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1112,22 +1112,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine021_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine021_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine021_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine021_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine021_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine021_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1141,22 +1141,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine020_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine020_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine020_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine020_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine020_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine020_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1170,22 +1170,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine019_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine019_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine019_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine019_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine019_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine019_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1199,22 +1199,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine018_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine018_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine018_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine018_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine018_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine018_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1228,22 +1228,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine017_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine017_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine017_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine017_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine017_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine017_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1257,22 +1257,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine016_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine016_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine016_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine016_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine016_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine016_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1286,22 +1286,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine015_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine015_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine015_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine015_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine015_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine015_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1315,22 +1315,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine014_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine014_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine014_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine014_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine014_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine014_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1344,22 +1344,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine013_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine013_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine013_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine013_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine013_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine013_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1373,22 +1373,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine012_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine012_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine012_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine012_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine012_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine012_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1402,22 +1402,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine011_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine011_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine011_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine011_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine011_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine011_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1431,22 +1431,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine010_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine010_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine010_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine010_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine010_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine010_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1460,22 +1460,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine009_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine009_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine009_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine009_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine009_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine009_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1489,22 +1489,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine008_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine008_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine008_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine008_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine008_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine008_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1518,22 +1518,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine007_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine007_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine007_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine007_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine007_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine007_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1547,22 +1547,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine006_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine006_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine006_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine006_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine006_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine006_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1576,22 +1576,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine005_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine005_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine005_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine005_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine005_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine005_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1605,22 +1605,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine004_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine004_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine004_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine004_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine004_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine004_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1634,22 +1634,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine003_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine003_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine003_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine003_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine003_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine003_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1663,22 +1663,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine002_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine002_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine002_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine002_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine002_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine002_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1692,22 +1692,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine001_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine001_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine001_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine001_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine001_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine001_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -1721,22 +1721,22 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={0.035}>
                         <mesh
                           name="Snow_Pine000_Tree_Bark_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine000_Tree_Bark_0.geometry}
                           material={materials.Tree_Bark}
                         />
                         <mesh
                           name="Snow_Pine000_Tree_Leaves_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine000_Tree_Leaves_0.geometry}
                           material={materials.Tree_Leaves}
                         />
                         <mesh
                           name="Snow_Pine000_Snow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Snow_Pine000_Snow_0.geometry}
                           material={materials.Snow}
                         />
@@ -2539,15 +2539,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone246" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone246_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone246_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone246_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone246_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2563,15 +2563,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cylinder080" position={[0, 0, 4.79]}>
                             <mesh
                               name="Cylinder080_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cylinder080_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cylinder080_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cylinder080_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2587,15 +2587,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone240" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone240_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone240_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone240_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone240_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2611,15 +2611,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone239" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone239_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone239_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone239_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone239_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2635,15 +2635,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone236" position={[0, 0, 4.821]}>
                             <mesh
                               name="Cone236_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone236_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone236_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone236_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2659,15 +2659,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone233" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone233_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone233_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone233_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone233_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2685,15 +2685,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone228" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone228_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone228_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone228_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone228_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2709,15 +2709,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone227" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone227_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone227_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone227_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone227_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2733,15 +2733,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone222" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone222_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone222_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone222_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone222_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2757,15 +2757,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone221" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone221_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone221_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone221_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone221_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2781,15 +2781,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone216" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone216_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone216_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone216_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone216_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2805,15 +2805,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone215" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone215_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone215_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone215_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone215_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2831,15 +2831,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone210" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone210_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone210_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone210_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone210_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2855,15 +2855,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone209" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone209_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone209_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone209_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone209_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2879,15 +2879,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone204" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone204_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone204_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone204_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone204_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2903,15 +2903,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone203" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone203_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone203_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone203_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone203_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2927,15 +2927,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone198" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone198_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone198_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone198_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone198_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2951,15 +2951,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone197" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone197_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone197_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone197_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone197_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -2977,15 +2977,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone192" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone192_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone192_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone192_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone192_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3001,15 +3001,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone191" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone191_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone191_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone191_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone191_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3025,15 +3025,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone186" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone186_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone186_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone186_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone186_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3049,15 +3049,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone185" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone185_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone185_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone185_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone185_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3073,15 +3073,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone180" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone180_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone180_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone180_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone180_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3097,15 +3097,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone179" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone179_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone179_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone179_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone179_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3126,15 +3126,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone174" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone174_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone174_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone174_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone174_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3150,15 +3150,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone173" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone173_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone173_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone173_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone173_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3174,15 +3174,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone168" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone168_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone168_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone168_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone168_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3198,15 +3198,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone167" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone167_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone167_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone167_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone167_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3222,15 +3222,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone162" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone162_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone162_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone162_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone162_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3246,15 +3246,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone161" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone161_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone161_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone161_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone161_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3275,15 +3275,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone156" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone156_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone156_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone156_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone156_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3299,15 +3299,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone155" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone155_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone155_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone155_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone155_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3323,15 +3323,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone150" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone150_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone150_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone150_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone150_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3347,15 +3347,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone149" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone149_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone149_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone149_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone149_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3371,15 +3371,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone144" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone144_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone144_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone144_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone144_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3395,15 +3395,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone143" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone143_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone143_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone143_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone143_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3424,15 +3424,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone140" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone140_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone140_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone140_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone140_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3448,15 +3448,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone135" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone135_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone135_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone135_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone135_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3472,15 +3472,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone132" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone132_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone132_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone132_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone132_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3496,15 +3496,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone131" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone131_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone131_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone131_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone131_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3520,15 +3520,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone126" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone126_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone126_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone126_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone126_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3544,15 +3544,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone125" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone125_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone125_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone125_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone125_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3568,15 +3568,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone120" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone120_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone120_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone120_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone120_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3592,15 +3592,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone119" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone119_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone119_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone119_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone119_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3621,15 +3621,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone114" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone114_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone114_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone114_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone114_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3648,15 +3648,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone113" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone113_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone113_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone113_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone113_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3675,15 +3675,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone108" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone108_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone108_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone108_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone108_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3702,15 +3702,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone107" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone107_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone107_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone107_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone107_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3729,15 +3729,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone102" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone102_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone102_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone102_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone102_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3756,15 +3756,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone101" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone101_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone101_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone101_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone101_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3783,15 +3783,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone098" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone098_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone098_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone098_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone098_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3810,15 +3810,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone093" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone093_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone093_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone093_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone093_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3836,15 +3836,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone092" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone092_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone092_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone092_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone092_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3860,15 +3860,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone087" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone087_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone087_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone087_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone087_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3884,15 +3884,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone084" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone084_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone084_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone084_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone084_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3908,15 +3908,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone083" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone083_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone083_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone083_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone083_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3932,15 +3932,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone078" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone078_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone078_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone078_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone078_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3956,15 +3956,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone077" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone077_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone077_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone077_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone077_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -3980,15 +3980,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone072" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone072_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone072_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone072_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone072_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4004,15 +4004,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone071" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone071_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone071_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone071_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone071_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4030,15 +4030,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone066" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone066_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone066_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone066_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone066_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4054,15 +4054,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone065" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone065_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone065_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone065_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone065_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4078,15 +4078,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone060" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone060_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone060_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone060_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone060_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4102,15 +4102,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone059" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone059_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone059_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone059_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone059_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4126,15 +4126,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone054" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone054_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone054_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone054_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone054_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4150,15 +4150,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone053" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone053_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone053_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone053_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone053_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4174,15 +4174,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone032" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone032_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone032_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone032_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone032_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4198,15 +4198,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone027" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone027_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone027_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone027_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone027_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4224,15 +4224,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone048" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone048_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone048_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone048_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone048_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4248,15 +4248,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone047" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone047_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone047_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone047_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone047_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4272,15 +4272,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone042" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone042_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone042_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone042_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone042_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4296,15 +4296,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone041" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone041_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone041_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone041_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone041_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4320,15 +4320,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone036" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone036_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone036_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone036_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone036_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4344,15 +4344,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone035" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone035_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone035_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone035_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone035_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4370,15 +4370,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cylinder007" position={[0, 0, 4.79]}>
                             <mesh
                               name="Cylinder007_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cylinder007_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cylinder007_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cylinder007_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4394,15 +4394,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone021" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone021_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone021_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone021_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone021_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4418,15 +4418,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone018" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone018_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone018_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone018_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone018_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4442,15 +4442,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cylinder004" position={[0, 0, 4.98]}>
                             <mesh
                               name="Cylinder004_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cylinder004_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cylinder004_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cylinder004_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4466,15 +4466,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone012" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone012_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone012_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone012_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone012_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4490,15 +4490,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone011" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone011_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone011_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone011_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone011_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4514,15 +4514,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone006" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone006_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone006_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone006_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone006_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4538,15 +4538,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           <group name="Cone005" position={[0, 0, 2.992]} scale={0.621}>
                             <mesh
                               name="Cone005_Tree_Leaves_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone005_Tree_Leaves_0.geometry}
                               material={materials.Tree_Leaves}
                             />
                             <mesh
                               name="Cone005_Tree_Bark_0"
-                              castShadow
-                              receiveShadow
+                              
+                              
                               geometry={nodes.Cone005_Tree_Bark_0.geometry}
                               material={materials.Tree_Bark}
                             />
@@ -4565,15 +4565,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base019" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base019_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base019_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base019_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base019_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4589,15 +4589,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base018" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base018_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base018_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base018_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base018_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4613,15 +4613,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base017" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base017_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base017_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base017_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base017_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4637,15 +4637,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base016" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base016_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base016_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base016_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base016_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4661,15 +4661,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base015" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base015_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base015_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base015_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base015_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4685,15 +4685,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base014" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base014_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base014_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base014_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base014_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4709,15 +4709,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base013" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base013_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base013_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base013_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base013_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4733,15 +4733,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base012" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base012_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base012_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base012_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base012_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4757,15 +4757,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base011" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base011_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base011_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base011_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base011_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4781,15 +4781,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base010" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base010_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base010_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base010_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base010_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4805,15 +4805,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base009" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base009_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base009_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base009_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base009_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4829,15 +4829,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base008" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base008_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base008_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base008_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base008_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4856,8 +4856,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney007_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney007_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -4869,8 +4869,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof007_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof007_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -4878,15 +4878,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base007" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base007_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base007_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base007_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base007_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4902,15 +4902,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base006" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base006_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base006_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base006_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base006_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -4922,8 +4922,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof006_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof006_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -4934,8 +4934,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney006_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney006_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -4954,8 +4954,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney005_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney005_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -4967,8 +4967,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof005_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof005_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -4976,15 +4976,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base005" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base005_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base005_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base005_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base005_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -5003,8 +5003,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney004_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney004_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -5016,8 +5016,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof004_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof004_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -5025,15 +5025,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base004" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base004_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base004_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base004_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base004_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -5049,15 +5049,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base003" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base003_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base003_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base003_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base003_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -5069,8 +5069,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof003_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof003_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -5081,8 +5081,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney003_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney003_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -5101,8 +5101,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney002_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney002_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -5114,8 +5114,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof002_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof002_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -5123,15 +5123,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base002" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base002_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base002_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base002_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base002_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -5147,15 +5147,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base001" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base001_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base001_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base001_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base001_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -5167,8 +5167,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof001_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof001_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -5179,8 +5179,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney001_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney001_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -5199,8 +5199,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.25, 0.25, 0.5]}>
                           <mesh
                             name="Chimney_House_Chimney_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Chimney_House_Chimney_0.geometry}
                             material={materials.House_Chimney}
                           />
@@ -5212,8 +5212,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                           scale={[0.825, 0.476, 0.833]}>
                           <mesh
                             name="Roof_House_Roof_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Roof_House_Roof_0.geometry}
                             material={materials.House_Roof}
                           />
@@ -5221,15 +5221,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Base" position={[0, 0, 1]} scale={[1.25, 1, 1]}>
                           <mesh
                             name="Base_House_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base_House_0.geometry}
                             material={materials.House}
                           />
                           <mesh
                             name="Base_House_Door_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Base_House_Door_0.geometry}
                             material={materials.House_Door}
                           />
@@ -5246,15 +5246,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.021, 0.021, 0.042]}>
                         <mesh
                           name="Building010_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building010_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building010_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building010_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5268,15 +5268,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.017, 0.017, 0.033]}>
                         <mesh
                           name="Building009_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building009_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building009_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building009_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5290,15 +5290,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.025, 0.025, 0.05]}>
                         <mesh
                           name="Building008_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building008_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building008_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building008_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5312,15 +5312,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.042, 0.042, 0.083]}>
                         <mesh
                           name="Building007_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building007_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building007_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building007_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5334,15 +5334,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.025, 0.025, 0.05]}>
                         <mesh
                           name="Building006_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building006_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building006_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building006_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5356,15 +5356,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.036, 0.036, 0.072]}>
                         <mesh
                           name="Building005_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building005_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building005_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building005_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5378,15 +5378,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.059, 0.059, 0.118]}>
                         <mesh
                           name="Building004_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building004_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building004_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building004_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5400,15 +5400,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.035, 0.035, 0.071]}>
                         <mesh
                           name="Building003_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building003_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building003_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building003_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5422,15 +5422,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.048, 0.048, 0.097]}>
                         <mesh
                           name="Building002_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building002_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building002_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building002_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5444,15 +5444,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.056, 0.056, 0.113]}>
                         <mesh
                           name="Building001_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building001_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building001_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building001_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5466,15 +5466,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.068, 0.068, 0.136]}>
                         <mesh
                           name="Building_Skyscraper_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building_Skyscraper_0.geometry}
                           material={materials.Skyscraper}
                         />
                         <mesh
                           name="Building_SkyscraperWindow_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Building_SkyscraperWindow_0.geometry}
                           material={materials.SkyscraperWindow}
                         />
@@ -5495,15 +5495,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Cube002" scale={[1, 0.5, 0.075]}>
                           <mesh
                             name="Cube002_Bridge_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Cube002_Bridge_0.geometry}
                             material={materials.Bridge}
                           />
                           <mesh
                             name="Cube002_Rope_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Cube002_Rope_0.geometry}
                             material={materials.Rope}
                           />
@@ -5520,15 +5520,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Cube001" scale={[1, 0.5, 0.075]}>
                           <mesh
                             name="Cube001_Bridge_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Cube001_Bridge_0.geometry}
                             material={materials.Bridge}
                           />
                           <mesh
                             name="Cube001_Rope_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Cube001_Rope_0.geometry}
                             material={materials.Rope}
                           />
@@ -5545,15 +5545,15 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         <group name="Cube" scale={[0.802, 0.401, 0.06]}>
                           <mesh
                             name="Cube_Bridge_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Cube_Bridge_0.geometry}
                             material={materials.Bridge}
                           />
                           <mesh
                             name="Cube_Rope_0"
-                            castShadow
-                            receiveShadow
+                            
+                            
                             geometry={nodes.Cube_Rope_0.geometry}
                             material={materials.Rope}
                           />
@@ -5570,8 +5570,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.113, 0.113, 0.165]}>
                         <mesh
                           name="Cone002_Pyramid_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Cone002_Pyramid_0.geometry}
                           material={materials.Pyramid}
                         />
@@ -5585,8 +5585,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.134, 0.134, 0.196]}>
                         <mesh
                           name="Cone001_Pyramid_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Cone001_Pyramid_0.geometry}
                           material={materials.Pyramid}
                         />
@@ -5600,8 +5600,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                         scale={[0.195, 0.195, 0.285]}>
                         <mesh
                           name="Cone003_Pyramid_0"
-                          castShadow
-                          receiveShadow
+                          
+                          
                           geometry={nodes.Cone003_Pyramid_0.geometry}
                           material={materials.Pyramid}
                         />
@@ -5611,57 +5611,57 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                   <group name="Planet">
                     <mesh
                       name="Planet_Snow_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_Snow_0.geometry}
                       material={materials.Snow}
                     />
                     <mesh
                       name="Planet_Grass_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_Grass_0.geometry}
                       material={materials.Grass}
                     />
                     <mesh
                       name="Planet_Water_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_Water_0.geometry}
                       material={materials.Water}
                     />
                     <mesh
                       name="Planet_Sand_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_Sand_0.geometry}
                       material={materials.Sand}
                     />
                     <mesh
                       name="Planet_MountainMid_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_MountainMid_0.geometry}
                       material={materials.MountainMid}
                     />
                     <mesh
                       name="Planet_MountainNorth_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_MountainNorth_0.geometry}
                       material={materials.MountainNorth}
                     />
                     <mesh
                       name="Planet_MountainMidTop_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_MountainMidTop_0.geometry}
                       material={materials.MountainMidTop}
                     />
                     <mesh
                       name="Planet_Asphalt_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Planet_Asphalt_0.geometry}
                       material={materials.Asphalt}
                     />
@@ -5669,8 +5669,8 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
                   <group name="Material_Cube">
                     <mesh
                       name="Material_Cube_Asphalt_0"
-                      castShadow
-                      receiveShadow
+                      
+                      
                       geometry={nodes.Material_Cube_Asphalt_0.geometry}
                       material={materials.Asphalt}
                     />
