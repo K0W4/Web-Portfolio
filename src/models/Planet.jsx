@@ -13,7 +13,7 @@ import { useFrame, useThree } from '@react-three/fiber';
 
 import planetScene from '../assets/3d/planet.glb'
 
-const Planet = ({isRotating, setIsRotating, ...props }) => {
+const Planet = ({isRotating, setIsRotating, setCurrentStage, ...props }) => {
     const planetRef = useRef();
     
     const { gl, viewport } = useThree();
@@ -64,14 +64,14 @@ const Planet = ({isRotating, setIsRotating, ...props }) => {
         {
             if (!isRotating) setIsRotating(true);
 
-            planetRef.current.rotation.y += 0.05 * Math.PI;
+            planetRef.current.rotation.y += 0.01 * Math.PI;
             rotationSpeed.current = 0.007;
         }
         else if (event.key === 'ArrowRight')
         {
             if (!isRotating) setIsRotating(true);
 
-            planetRef.current.rotation.y -= 0.05 * Math.PI;
+            planetRef.current.rotation.y -= 0.01 * Math.PI;
             rotationSpeed.current = -0.007;
         }
     }
@@ -99,9 +99,7 @@ const Planet = ({isRotating, setIsRotating, ...props }) => {
         {
             const rotation = planetRef.current.rotation.y;
     
-            const normalizedRotation =
-            ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
-    
+            const normalizedRotation = ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
             switch (true) {
                 case normalizedRotation >= 5.45 && normalizedRotation <= 5.85:
                 setCurrentStage(4);
