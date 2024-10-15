@@ -6,14 +6,14 @@ Source: https://sketchfab.com/3d-models/cute-little-planet-d105df566add4bb88a4d6
 Title: Cute Little Planet
 */
 
-import { useRef, useEffect } from 'react';
-import { useGLTF, } from '@react-three/drei';
-import { useFrame, useThree } from '@react-three/fiber';
 import { a } from '@react-spring/three';
+import { useEffect, useRef } from 'react';
+import { useGLTF } from '@react-three/drei';
+import { useFrame, useThree } from '@react-three/fiber';
 
 import planetScene from '../assets/3d/planet.glb'
 
-const Planet = ({ isRotating, setIsRotating, ...props }) => {
+const Planet = ({isRotating, setIsRotating, ...props }) => {
     const planetRef = useRef();
     
     const { gl, viewport } = useThree();
@@ -23,33 +23,33 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
     const rotationSpeed = useRef(0);
     const dampingFactor = 0.95;
 
-    const handlePointerDown = (e) => {
-        e.stopPropagation();
-        e.preventDefault();
+    const handlePointerDown = (event) => {
+        event.stopPropagation();
+        event.preventDefault();
         setIsRotating(true);
         
-        const clientX = e.touches
-        ? e.touches[0].clientX
-        : e.clientX;
+        const clientX = event.touches
+        ? event.touches[0].clientX
+        : event.clientX;
         
         lastX.current = clientX;
-    }
+    };
     
-    const handlePointerUp = (e) => {
-        e.stopPropagation();
-        e.preventDefault();
+    const handlePointerUp = (event) => {
+        event.stopPropagation();
+        event.preventDefault();
         setIsRotating(false);
-    }
+    };
 
-    const handlePointerMove = (e) => {
-        e.stopPropagation();
-        e.preventDefault();
+    const handlePointerMove = (event) => {
+        event.stopPropagation();
+        event.preventDefault();
 
         if (isRotating)
         {
-            const clientX = e.touches
-            ? e.touches[0].clientX
-            : e.clientX;
+            const clientX = event.touches
+            ? event.touches[0].clientX
+            : event.clientX;
     
             const delta = (clientX - lastX.current) / viewport.width;
     
@@ -57,23 +57,27 @@ const Planet = ({ isRotating, setIsRotating, ...props }) => {
             lastX.current = clientX;
             rotationSpeed.current = delta * 0.01 * Math.PI;
         }
-    }
+    };
     
-    const handleKeyDown = (e) => {
-        if (e.key === 'ArrowLeft')
+    const handleKeyDown = (event) => {
+        if (event.key === 'ArrowLeft')
         {
             if (!isRotating) setIsRotating(true);
-            planetRef.current.rotation.y += 0.01 * Math.PI;
+
+            planetRef.current.rotation.y += 0.05 * Math.PI;
+            rotationSpeed.current = 0.007;
         }
-        else if (e.key === 'ArrowRight')
+        else if (event.key === 'ArrowRight')
         {
             if (!isRotating) setIsRotating(true);
-            planetRef.current.rotation.y -= 0.01 * Math.PI;
+
+            planetRef.current.rotation.y -= 0.05 * Math.PI;
+            rotationSpeed.current = -0.007;
         }
     }
     
-    const handleKeyUp = (e) => {
-        if (e.key === 'ArrowLeft' || e.key === 'ArrowRight')
+    const handleKeyUp = (event) => {
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowRight')
         {
             setIsRotating(false);
         }

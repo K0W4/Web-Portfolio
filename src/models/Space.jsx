@@ -11,7 +11,7 @@ const Space = ({ isRotating } ) => {
   useFrame((_, delta) => {
     if (isRotating)
     {
-      spaceRef.current.rotation.y += 0.95 * delta
+      spaceRef.current.rotation.y += 0.25 * delta
     }
   })
 
