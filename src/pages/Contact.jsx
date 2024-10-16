@@ -3,6 +3,8 @@ import emailjS from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';
 
 import Loader from '../components/Loader';
+import useAlert from '../hooks/useAlert';
+import Alert from '../components/Alert';
 
 import Alien from '../models/Alien';
 
@@ -10,6 +12,9 @@ const Contact = () => {
   const formRef = useRef(null);
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [isLoading, setIsLoading] = useState(false);
+  const [currentAnimation, setCurrentAnimation] = useState('Armature|ArmatureAction');
+
+  const { alert, showAlert, hideAlert } = useAlert();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name] : e.target.value })
@@ -18,6 +23,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setCurrentAnimation('Armature|ArmatureAction')
     
     emailjS.send(
       import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -32,19 +38,29 @@ const Contact = () => {
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setIsLoading(false);
+      showAlert({ show: true, text: 'Message sent successfuly!', type: 'success' })
 
-      setForm({ name: '', email: '', message: '' })
+      setTimeout(() => {
+        hideAlert
+        setCurrentAnimation('Armature|ArmatureAction')
+        setForm({ name: '', email: '', message: '' })
+      }), [3000]
     }).catch((error) => {
       setIsLoading(false);
+      setCurrentAnimation('Armature|ArmatureAction')
       console.log(error);
+      showAlert({ show: true, text: 'I didnt receive your message!', type: 'danger' })
     })
   };
 
-  const handleFocus = () => {};
-  const handleBlur = () => {};
+  const handleFocus = () => setCurrentAnimation('Armature|ArmatureAction');
+  const handleBlur = () => setCurrentAnimation('Armature|ArmatureAction');
 
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
+      {alert.show && <Alert {...alert} />}
+      <Alert {...alert} />
+
       <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get in Touch</h1>
 
@@ -118,8 +134,10 @@ const Contact = () => {
           }}
         >
           <directionalLight intensity={2.5} position={[0, 0, 1]} />
+          <ambientLight intensity={0.5} />
           <Suspense fallback={<Loader />}>
             <Alien
+              currentAnimation={currentAnimation}
               position={[0.5, -1.5, 0]}
               rotation={[6.7, -0.5, 0]}
               scale={[1, 1, 1]}
