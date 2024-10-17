@@ -10,7 +10,7 @@ const About = () => {
         Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">Gabriel Kowaleski</span>!
       </h1>
 
-      <div className="mt-5 flex flex-col ga3 text-slate-500">
+      <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
         A Software Engineer, born in Brazil, undergraduate student, seeking specialization in front-end technologies and as a game developer.</p>
       </div>
