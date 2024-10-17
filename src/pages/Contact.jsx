@@ -59,7 +59,6 @@ const Contact = () => {
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
       {alert.show && <Alert {...alert} />}
-      <Alert {...alert} />
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get in Touch</h1>
@@ -138,7 +137,7 @@ const Contact = () => {
           <Suspense fallback={<Loader />}>
             <Alien
               currentAnimation={currentAnimation}
-              position={[0.5, -1.5, 0]}
+              position={[0.3, -1.5, 0]}
               rotation={[6.7, -0.5, 0]}
               scale={[1, 1, 1]}
             />
