@@ -5,12 +5,12 @@ import CTA from '../components/CTA';
 
 const Projects = () => {
   return (
-    <section className="max-container">
+    <section className="max-container text-white">
       <h1 className="head-text">
-        My <span className="blue-gradient_text font-semibold drop-shadow">Projects</span>
+        My <span className="orange-gradient_text font-semibold drop-shadow">Projects</span>
       </h1>
 
-      <div className="mt-5 flex flex-col gap-3 text-slate-500">
+      <div className="mt-5 flex flex-col gap-3 text-white">
         <p>
         Although I am at the beginning of my career, I have developed some projects that I am very proud of. They are all open source, so if you come across something that piques your interest, feel free to explore the codebase and contribute your ideas for further improvements. Your collaboration is highly valued!
         </p>
@@ -20,7 +20,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
             <div className="block-container w-12 h-12">
-              <div className={`btn-back rounded-xl ${project.theme}`}/>
+              <div className={`btn-back shadow-w rounded-xl ${project.theme}`}/>
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={project.iconUrl}
@@ -35,7 +35,7 @@ const Projects = () => {
                   {project.name}
                 </h4>
 
-                <p className="mt-2 text-slate-500">
+                <p className="mt-2 text-white">
                   {project.description}
                 </p>
 
@@ -44,13 +44,13 @@ const Projects = () => {
                     to={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-semibold text-blue-600"
+                    className="font-semibold text-orange-600"
                   >
                     Live Link
                   </Link>
                   <img
                     src={arrow}
-                    className="w-4 h-4 object-contain"
+                    className="w-4 h-4 object-contain arrow"
                   />
                 </div>
             </div>
