@@ -5,7 +5,7 @@ import Loader from '../components/Loader'
 import Space from '../models/Space'
 import Rocket from '../models/Rocket'
 import HomeInfo from '../components/HomeInfo'
-import Planet from '../models/planet'
+import Planet from '../models/Planet'
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
