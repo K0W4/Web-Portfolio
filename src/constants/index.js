@@ -95,7 +95,7 @@ export const projects = [
         iconUrl: icon,
         theme: 'btn-back-orange',
         name: 'Web Portfolio',
-        description: 'A web portfolio that utilizes 3D animations and various React features',
+        description: 'A web portfolio that utilizes 3D animations and various React features.',
         link: 'https://github.com/K0W4/Web-Portfolio',
     }
 ];
