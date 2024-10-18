@@ -51,6 +51,7 @@ const Contact = () => {
       setCurrentAnimation('Armature|ArmatureAction')
       console.log(error);
       showAlert({ show: true, text: 'I didnt receive your message!', type: 'danger' })
+      console.log(process.env.VITE_APP_EMAILJS_PUBLIC_KEY);
     })
   };
 
