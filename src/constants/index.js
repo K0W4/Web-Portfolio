@@ -1,4 +1,9 @@
+import icon from "../assets/icon.png";
+
 import {
+    calculator,
+    cinema,
+    cloud,
     css,
     git,
     github,
@@ -66,31 +71,31 @@ export const skills = [
 
 export const projects = [
     {
-        iconUrl: css,
-        theme: 'btn-back-red',
-        name: 'Calculator',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: css,
+        iconUrl: calculator,
         theme: 'btn-back-green',
-        name: 'Wheater App',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Calculator',
+        description: 'A visually appealing calculator using HTML, CSS, and JavaScript.',
+        link: 'https://github.com/K0W4/Calculadora',
     },
     {
-        iconUrl: css,
+        iconUrl: cloud,
         theme: 'btn-back-blue',
-        name: 'API Films',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Wheater App',
+        description: 'A weather app utilizing external APIs to complete its functionalities.',
+        link: 'https://github.com/K0W4/Clima-App',
     },
     {
-        iconUrl: css,
+        iconUrl: cinema,
         theme: 'btn-back-pink',
+        name: 'API Films',
+        description: 'A API that collects movie review data and stores it in a database.',
+        link: 'https://github.com/K0W4/API-Filmes',
+    },
+    {
+        iconUrl: icon,
+        theme: 'btn-back-orange',
         name: 'Web Portfolio',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        description: 'A web portfolio that utilizes 3D animations and various React features',
+        link: 'https://github.com/K0W4/Web-Portfolio',
     }
 ];

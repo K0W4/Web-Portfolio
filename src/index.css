@@ -153,19 +153,9 @@ body:has(.card[data-color="green"]:hover)
   box-shadow: 1px 0 10px #ffffff;
 }
 
-.block-container .btn-back-red
-{
-  background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
-}
-
 .block-container .btn-back-green
 {
   background: linear-gradient(135deg, #adfda2 -20%, #11d3f3 120%);
-}
-
-.block-container .btn-back-yellow
-{
-  background: linear-gradient(135deg, #f7971e -20%, #ffd200 120%);
 }
 
 .block-container .btn-back-blue
